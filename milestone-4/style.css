@@ -1,0 +1,94 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #232323;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    margin: 20px;
+}
+
+.form-section {
+    flex: 1;
+    margin-right: 20px;
+    background-color: #2c2c2c;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    font-family: Arial, sans-serif;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+    padding: 5px 10px;
+    background-color: #e63946;
+    color: white;
+    border: none;
+    box-shadow: 0 0 10px black;
+}
+
+button:hover {
+    background-color: #ff737c;
+}
+
+#education-section, #work-experience-section, #skills-section {
+    margin-bottom: 20px;
+}
+
+#resume {
+    flex: 1;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.resume-preview h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.resume-section {
+    margin-bottom: 20px;
+}
+
+.resume-section h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.resume-section ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.resume-section li {
+    margin-bottom: 10px;
+}
+h2 {
+    font-size: 18px;
+    padding: 10px;
+    margin: 20px 0 10px;
+    color: white ;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px #e63946;
+}
